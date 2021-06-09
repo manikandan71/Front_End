@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>R & D Website</title>
+ <link rel="stylesheet" type="text/css" href="style.css">
+ <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+</head>
+<body>
+
+<header class="site-header clearfix">
+
+<!-- <video src="mp4.mp4" class="vid-bg" autoplay loop muted></video> -->
+ <nav>
+  <div class="logo">
+      <img src="NEW2.jpg">
+   <!-- <h1>DATA DRIVEN INNOVATION <br> Cloud Services For Your Digital Transformation</h1> -->
+  </div>
+  <div class="menu"> 
+   <ul>
+    <li class="active"> <a href=""><i class="fa fa-home"></i>Home</a></li>
+    <li><a href=""><i class="fa fa-wrench"></i>Services&nbsp;&nbsp;<i class="fa fa-caret-down"></i></a>
+         <div class="sub-menu">
+            <ul>
+                <li><a href="powerbi.html">Powerbi</a></li>
+            </ul>
+        </div>
+
+    </li>
+    <li><a href="about.html"><i class="fa fa-user"></i>AboutUs&nbsp;&nbsp;</a></li>
+    <li><a href="#" class = "button" id = "button"><i class="fa fa-phone" ></i>ContactUs</a>
+            </li>
+   </ul>
+  </div>
+ </nav>
+ <section>
+ <div class="leftside"> 
+    <!-- <button><a href=""><img src="Chime.png"></a></button> -->
+   </div>
+   
+  <div class="rightside"> 
+   <h1>We are Innovator</h1>
+   <p>We are the Best AI and Cloud Company</p>
+   
+   <a href="#" id ="button" class="button">Learn more</a> 
+  </div>
+</section>
+</div>
+
+<div class="bg-modal">
+	<div class="modal-contents">
+
+		<div class="close">+</div>
+
+		<form action="">
+			<input type="text" placeholder="Name">
+            <input type="email" placeholder="E-Mail">
+            <textarea rows="5" cols="30"name="comment" form="usrform">
+                Enter Your Comment</textarea>
+                <br>
+			<a href="#"onclick="popup()" id="pop" class="button" >Submit</a>
+		</form>
+
+	</div>
+</div>
+
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</header>
+
+
+</body>
+<div class="footer">
+    <div class="inner-footer">
+        <div class="footer-items">
+            <h2>Quick Links</h2>
+            <div
+              class="border">
+
+            </div>
+             <ul>
+                <a href=""><li>Home</li></a>
+                <a href=""><li>Services</li></a>
+                <a href=""><li>AboutUs</li></a>
+                <a href=""><li>ContactUs</li></a>
+
+             </ul>
+
+        </div>
+
+        <div class="footer-items">
+            <h2>Stay Connected</h2>
+            <div class="border"></div>
+            <ul>
+                <li><a href=""><i class="fa fa-map-marker" aria-hidden="true"></i>11175 Cicero Drive, Suite 100, Alphareta GA - 30022</a></li>
+                <li><a href=""><i class="fa fa-phone" aria-hidden="true"></i>+1 770-510-3456</a></li>
+                <li><a href=""><i class="fa fa-envelope" aria-hidden="true"></i>inquiries@ittstar.ai </a></li>
+            </ul>
+
+        </div>
+
+        <div class=footer-items>
+            <h2>Follow us</h2>
+            <div class="border"></div>
+            <ul>
+                <li><a href="https://www.facebook.com/ITTStarConsulting/"><i class="fa fa-facebook-official" aria-hidden="true"></i></a><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a><a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                
+            </ul>
+
+        </div>
+
+    </div>
+    <div class="footer-bottom">
+        <div class="border1"></div><br>
+        ITTStar Software @ 2020. All Rights Reserved.
+
+    </div>
+
+</div>
+<script>
+    document.getElementById('button').addEventListener("click", function() {
+	document.querySelector('.bg-modal').style.display = "flex";
+});
+
+document.querySelector('.close').addEventListener("click", function() {
+	document.querySelector('.bg-modal').style.display = "none";
+});
+
+document.getElementById('button').addEventListener("click", function() {
+	document.querySelector('.bg-modal').style.display = "flex";
+});
+
+document.querySelector('.close').addEventListener("click", function() {
+	document.querySelector('.bg-modal').style.display = "none";
+});
+
+function popup(){
+    swal("Success !", "You clicked the button!", "success");
+}
+
+document.querySelector("#redirect").addEventListener('click',() =>{
+    window.location.href = "https://chime.ittstar.store"
+        });
+
+</script>
+
+
+</html>
